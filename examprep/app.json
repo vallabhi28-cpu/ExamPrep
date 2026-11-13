@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ExamPrep",
+    "slug": "examprep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.examprep.app"
+    },
+    "android": {
+      "package": "com.examprep.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ]
+    ],
+    "scheme": "examprep",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
